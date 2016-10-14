@@ -14,6 +14,8 @@
 		4A5345461DB074EC009DECFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5345441DB074EC009DECFD /* LaunchScreen.storyboard */; };
 		4A5345511DB074EC009DECFD /* Facebook_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5345501DB074EC009DECFD /* Facebook_demoTests.swift */; };
 		4A53455C1DB074EC009DECFD /* Facebook_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A53455B1DB074EC009DECFD /* Facebook_demoUITests.swift */; };
+		4A53456A1DB079F7009DECFD /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5345691DB079F7009DECFD /* FeedViewController.swift */; };
+		4A53456C1DB084E5009DECFD /* ThrillistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A53456B1DB084E5009DECFD /* ThrillistViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4A5345571DB074EC009DECFD /* Facebook demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Facebook demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A53455B1DB074EC009DECFD /* Facebook_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facebook_demoUITests.swift; sourceTree = "<group>"; };
 		4A53455D1DB074EC009DECFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5345691DB079F7009DECFD /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		4A53456B1DB084E5009DECFD /* ThrillistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThrillistViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				4A53453B1DB074EC009DECFD /* AppDelegate.swift */,
 				4A53453D1DB074EC009DECFD /* ViewController.swift */,
 				4A53453F1DB074EC009DECFD /* Main.storyboard */,
+				4A53456B1DB084E5009DECFD /* ThrillistViewController.swift */,
+				4A5345691DB079F7009DECFD /* FeedViewController.swift */,
 				4A5345421DB074EC009DECFD /* Assets.xcassets */,
 				4A5345441DB074EC009DECFD /* LaunchScreen.storyboard */,
 				4A5345471DB074EC009DECFD /* Info.plist */,
@@ -263,6 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A53453E1DB074EC009DECFD /* ViewController.swift in Sources */,
+				4A53456A1DB079F7009DECFD /* FeedViewController.swift in Sources */,
+				4A53456C1DB084E5009DECFD /* ThrillistViewController.swift in Sources */,
 				4A53453C1DB074EC009DECFD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
